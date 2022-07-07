@@ -29,6 +29,9 @@ strokeWeight(5);
 fill(255,196,245);
 if (frequency > 0) {
   circle(400,400,600);
+  textSize(128);
+  fill(200,2,65);
+  text(frequency, 375, 432);
 }
 
  println(frequency);
